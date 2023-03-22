@@ -1,0 +1,42 @@
+<!-- Created by Ilir Hajdari -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Atlas of History</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Mapbox GL JS  -->
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js"></script>
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Atlas of History</h1>
+    </header>
+    <!-- Map container -->
+    <div id="map"></div>
+
+    <div id="history"></div>
+    <div class="history">
+      <h2>This Day in History</h2>
+      <div class="history-fact"></div>
+    </div>
+
+    <div class="search-container">
+      <input type="text" id="search-input" />
+      <button id="search-button">Search</button>
+    </div>
+
+    <!-- Import Jest-->
+    <script src="https://cdn.jsdelivr.net/npm/jest@24.9.0/umd/jest.min.js"></script>
+    <!-- Test-->
+    <script src="js/test.js"></script>
+    <!-- Import the JavaScript file -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
